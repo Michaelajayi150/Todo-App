@@ -50,8 +50,8 @@ It can check out all design in the [design folder](./design/)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/todo-app-with-react-and-vite-oQRrZkZJRr](https://www.frontendmentor.io/solutions/todo-app-with-react-and-vite-oQRrZkZJRr)
+- Live Site URL: [https://mentor-todo.netlify.app/](https://mentor-todo.netlify.app/)
 
 ## My process
 
@@ -94,9 +94,9 @@ In order to view this project locally, you need to make sure you clone this repo
 
 ### System Requirements
 
-- [git][https://git-scm.com/] 2.31.1 or greater
-- [node][https://nodejs.org/en/] 14.16.1 or greater
-- [npm][https://nodejs.org/en/] 8.7.0 or greater
+- [git] - [https://git-scm.com/] 2.31.1 or greater
+- [node] - [https://nodejs.org/en/] 14.16.1 or greater
+- [npm] - [https://nodejs.org/en/] 8.7.0 or greater
 
 To check which versions you have installed you can run these commands:
 ```
@@ -110,11 +110,11 @@ If requirements above are not installed in your computer, you'll need to install
 
 - Clone the repository
   ```sh
-  git clone https://github.com/denielden/react-qrcode-generator.git
+  git clone https://github.com/Michaelajayi150/Todo-App.git
   ```
 - Navigate to repository folder
   ```sh
-  cd qrcode-generator
+  cd Todo-App
   ```
 - Install npm packages
   ```sh
