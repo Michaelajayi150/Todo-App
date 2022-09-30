@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+:root {
+  --selected: rgb(58, 123, 253);
+  --marked_background: linear-gradient(rgb(87, 221, 255), rgb(192, 88, 243));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  position: relative;
+  min-height: 20vh;
+  padding-top: 10vh;
+}
+
+header .background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header .background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+  position: relative;
+  transform: translateY(-16vh);
+  margin-top: 1.7rem !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.content {
+  width: 90%;
+  max-width: 550px;
+  margin: auto;
+}
+
+.content h1 {
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+.content.header,
+.content.header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.check-circle.checked {
+  width: 18px;
+  height: 18px;
+  background: var(--marked_background);
+  border: none;
+}
+
+input {
+  caret-color: var(--selected);
+}
+
+.highlighted {
+  color: var(--selected);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.attribution {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    width: 80%;
+    max-width: 600px;
+  }
+
+  header {
+    min-height: 20vh;
+    padding-top: 15vh;
+  }
+
+  .attribution {
+    bottom: 1.5rem;
+  }
+}
