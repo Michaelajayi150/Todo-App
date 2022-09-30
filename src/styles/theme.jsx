@@ -70,10 +70,15 @@ export const GlobalStyles = createGlobalStyle`
     padding: 1.5rem 1rem;
     
     display: flex;
+    align-items: center;
     gap: 10px;
+
+    label {
+      flex: 0 1 90%;
+    }
     
     input {
-      flex: 0 1 90%;
+      width: 100%;
       color: ${({ theme }) => theme.text};
       background: transparent;
       border: none;
