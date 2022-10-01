@@ -18,7 +18,7 @@ export const GlobalStyles = createGlobalStyle`
       font-size: 14px;
       color: ${({ theme }) => theme.text};
       cursor: pointer;
-      padding: 1.2rem 1rem;
+      padding: 1.5rem 1rem;
       border-bottom: 1px solid ${({ theme }) => theme.line};
 
       display: flex;

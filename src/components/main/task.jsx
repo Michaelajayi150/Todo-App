@@ -9,6 +9,8 @@ function Task(props) {
       onDragStart={(e) => (props.draggedItem.current = props.index)}
       onDragEnter={(e) => (props.draggedOverItem.current = props.index)}
       onDragEnd={props.handleSort}
+      onTouchStart={(e) => (props.draggedItem.current = props.index)}
+      onTouchEnd={props.handleSort}
       onClick={() => props.handleChecked(props.task)}
     >
       <div
