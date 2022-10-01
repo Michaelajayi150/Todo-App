@@ -38,7 +38,7 @@ header .background-image img {
 
 main {
   position: relative;
-  transform: translateY(-18vh);
+  transform: translateY(-17vh);
   margin-top: 1.7rem !important;
 
   display: flex;
@@ -110,8 +110,8 @@ input {
   }
 
   header {
-    min-height: 22vh;
-    padding-top: 7.5vh;
+    min-height: 20vh;
+    padding-top: 9vh;
   }
 
   .attribution {
